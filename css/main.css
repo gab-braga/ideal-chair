@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700&family=Rubik:wght@300;400;500;600;700&display=swap");
+
+:root {
+    font-size: 16px;
+    --gradient: linear-gradient(to bottom, #99e8ab 0%, #6eb77d 100%);
+    --c-light: #f9f9f9;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background: #99e8ab;
+}

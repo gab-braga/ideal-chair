@@ -1,0 +1,37 @@
+.introduction {
+    background: var(--gradient);
+    display: flex;
+    align-items: center;
+    padding: 0 15%;
+    height: 40vh;
+    position: relative;
+}
+
+.introduction h1 {
+    margin-top: 30px;
+    width: 40%;
+    color: var(--c-light);
+    font-family: "Rubik", sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.5rem;
+    letter-spacing: 0.105rem;
+    text-transform: uppercase;
+}
+
+.introduction .carousel.slide {
+    width: clamp(200px, 40%, 400px);
+    position: absolute;
+    bottom: -300px;
+    right: 20%;
+    z-index: 2;
+}
+
+.h-separator {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 1;
+}
