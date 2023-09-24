@@ -36,7 +36,7 @@
     width: 100%;
     position: absolute;
     left: 0;
-    top: 100%;
+    top: 98%;
     z-index: 1;
 }
 
@@ -94,4 +94,26 @@
 
 .section {
     margin-bottom: 120px;
+}
+
+.footer {
+    background: var(--gradient);
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 24px;
+    align-items: center;
+    position: relative;
+}
+
+.footer p {
+    margin: 0;
+    text-align: center;
+    color: var(--c-pri-3);
+}
+
+.f-separator {
+    width: 100%;
+    position: absolute;
+    bottom: 98%;
+    left: 0;
 }
