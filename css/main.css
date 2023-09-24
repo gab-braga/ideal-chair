@@ -4,6 +4,12 @@
     font-size: 16px;
     --gradient: linear-gradient(to bottom, #99e8ab 0%, #6eb77d 100%);
     --c-light: #f9f9f9;
+    --c-black: #282626;
+    --c-gray-1: #b0b0b0;
+    --c-gray-1: #7e7e7e;
+    --c-pri-1: #bbeac5;
+    --c-pri-2: #74e472;
+    --c-pri-3: #2b5f2a;
 }
 
 * {
@@ -17,4 +23,8 @@ img {
 
 header {
     background: #99e8ab;
+}
+
+main {
+    margin-top: 120px;
 }

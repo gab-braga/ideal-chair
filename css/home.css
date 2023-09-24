@@ -48,3 +48,50 @@
 .photo:hover {
     transform: scale(1.1);
 }
+
+.section-title {
+    margin-top: 30px;
+    color: var(--c-pri-1);
+    font-family: "Rubik", sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.5rem;
+    letter-spacing: 0.105rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.details {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.details .detail-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.details .detail-item h3 {
+    color: var(--pri-1, #74e472);
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.8rem; /* 118.75% */
+    letter-spacing: 0.048rem;
+}
+
+.details .detail-item p {
+    color: var(--c-gray-1);
+    text-align: center;
+}
+
+.section {
+    margin-bottom: 120px;
+}
