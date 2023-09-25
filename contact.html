@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IdealChair</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <!-- JavaScript -->
+    <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/script.js" defer></script>
+</head>
+
+<body>
+    <header class="w-100 position-absolute top-0 start-0">
+        <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container-fluid px-4">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <a class="navbar-brand" href="/">
+                        <img style="width:160px" src="/assets/images/illustrations/logo.svg" alt="IdealChair">
+                    </a>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase fw-semibold" href="/products.html">Cadeiras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase fw-semibold" href="/about.html">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase fw-semibold" href="/contact.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2 class="fs-3 text-success opacity-75 my-3 mx-5 mx-sm-0">Entre em contato e saiba mais</h2>
+
+        <form class="grid needs-validation" novalidate>
+            <div class="row mb-4">
+                <div class="col-12 col-md-6">
+                    <label for="name" class="form-label">Seu nome</label>
+                    <input type="text" class="form-control" id="name" placeholder="Digite seu nome completo." required>
+                    <div class="invalid-feedback">
+                        Digite seu nome completo.
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-12 col-md-6">
+                    <label for="email" class="form-label">Seu e-mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="example@idealchair.com" required>
+                    <div class="invalid-feedback">
+                        Digite um e-mail válido.
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-12 col-md-6">
+                    <label for="message" class="form-label">Mensagem</label>
+                    <textarea class="form-control" id="message" required></textarea>
+                    <div class="invalid-feedback">
+                        Digite uma mensagem.
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-12 col-md-6">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="conditions" required>
+                        <label class="form-check-label" for="conditions">
+                            Concorda com nossas politicas de e-mail.
+                        </label>
+                        <div class="invalid-feedback">
+                            Para seguir é necessário aceitar as politicas de e-mail.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-12 col-md-6">
+                    <button class="btn btn-success" type="submit">Enviar</button>
+                </div>
+            </div>
+
+        </form>
+
+    </main>
+
+    <footer class="w-100 position-relative px-4 m-0 gradient-custom d-flex flex-column justify-content-center align-items-center">
+        <img class="position-absolute bottom-100 start-0 end-0 m-0 p-0" src="/assets/images/illustrations/separator-footer.png">
+        <a href="/">
+            <img class="mb-2" src="/assets/images/illustrations/logo.svg" alt="IdealChair">
+        </a>
+        <p class="text-black opacity-50 text-center">&copy; <strong>IdealChair.</strong> Alguns direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
