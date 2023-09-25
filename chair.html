@@ -41,15 +41,9 @@
     </header>
 
     <main class="container flex-grow-1">
-        <h2 class="fs-3 text-success opacity-75 mb-3">
-            Aqui você encontra cadeiras ideais para qualquer ambiente!
-        </h2>
 
-        <div class="grid px-5 px-sm-0">
-            <div class="row g-4" id="products">
+        <div id="chair"></div>
 
-            </div>
-        </div>
     </main>
 
     <footer class="w-100 position-relative px-4 m-0 gradient-custom d-flex flex-column justify-content-center align-items-center">
@@ -57,29 +51,49 @@
         <a href="/">
             <img class="mb-2" src="/assets/images/illustrations/logo.svg" alt="IdealChair">
         </a>
-        <p class="text-black opacity-75 text-center">&copy; <strong>IdealChair.</strong> Alguns direitos reservados.</p>
+        <p class="text-black opacity-50 text-center">&copy; <strong>IdealChair.</strong> Alguns direitos reservados.</p>
     </footer>
 
     <script type="module">
         import { products } from "/js/products.js";
-        const elem = document.querySelector('#products');
-        elem.innerHTML = '';
+        const url = new URL(window.location.href);
+        const id = url.searchParams.get('id');
+        const elem = document.querySelector('#chair');
+        const chair = products.find(p => p.id == id);
 
-        for (let product of products) {
-            elem.innerHTML += `
-                <a class=" d-inline-block text-decoration-none col-12 col-sm-6 col-md-4 col-lg-3" href="/chair.html?id=${product.id}">
-                    <div class="card p-0">
-                        <img class=" card-img-top object-fit-cover" style="height: 14rem;" src="/assets/images/chairs/chair-${product.id}.jpg" alt="${product.name}">
-                        <div class="card-body">
-                            <h5 class="card-title">${product.name}</h5>
-                            <div class="w-100 d-flex flex-column justify-content-center align-items-start flex-lg-row justify-content-lg-between align-items-lg-center">
-                                <span class="fs-6 text-black opacity-25">${product.sales} vendas</span>
-                                <span class="fs-5 text-success fw-bolder">R$ ${product.price}</span>
+        if (chair) {
+            elem.innerHTML = `
+                <div class="container">
+                    <div class="d-flex flex-column flex-lg-row gap-4">
+                        <div style="flex: 5;">
+                            <img class="rounded w-100 h-100 object-fit-cover" src="/assets/images/chairs/chair-${id}.jpg" alt="${chair.name}">
+                        </div>
+                        <div class="d-flex flex-column" style="flex: 7;">
+                            <h2>${chair.name}</h2>
+                            <p class="opacity-50">${chair.sales} vendas</p>
+
+                            <h3 class="fs-5">Descrição</h3>
+                            <p>${chair.description}</p>
+
+                            <h3 class="fs-5">Características Princiapais</h3>
+                            <ul>
+                                <li>${chair.details[0]}</li>
+                                <li>${chair.details[1]}</li>
+                                <li>${chair.details[2]}</li>
+                                <li>${chair.details[3]}</li>
+                            </ul>
+                            <div class="flex-grow-1 d-flex justify-content-between align-items-end">
+                                <h3 class="fs-4 text-success">R$ ${chair.price}</h3>
+                                <button class="btn btn-success text-uppercase" type="button">Comprar</button>
                             </div>
                         </div>
                     </div>
-                </a>
+                </div>
             `;
+
+        }
+        else {
+            elem.innerHTML = "<h2 class='fs-3 text-success opacity-75 mb-3'>Cadeira não encontrado.</h2>";
         }
     </script>
 </body>
