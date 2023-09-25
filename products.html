@@ -68,11 +68,11 @@
         for (let product of products) {
             elem.innerHTML += `
                 <a class=" d-inline-block text-decoration-none col-12 col-sm-6 col-md-4 col-lg-3" href="/chair.html?id=${product.id}">
-                    <div class="card p-0">
-                        <img class=" card-img-top object-fit-cover" style="height: 14rem;" src="/assets/images/chairs/chair-${product.id}.jpg" alt="${product.name}">
-                        <div class="card-body">
+                    <div class="card p-0 w-100 h-100">
+                        <img class=" card-img-top object-fit-cover" style="height: 14rem;" src="${product.image}" alt="${product.name}">
+                        <div class="card-body d-flex flex-column">
                             <h5 class="card-title">${product.name}</h5>
-                            <div class="w-100 d-flex flex-column justify-content-center align-items-start flex-lg-row justify-content-lg-between align-items-lg-center">
+                            <div class="flex-grow-1 w-100 d-flex flex-column justify-content-end align-items-start flex-lg-row justify-content-lg-between align-items-lg-end">
                                 <span class="fs-6 text-black opacity-25">${product.sales} vendas</span>
                                 <span class="fs-5 text-success fw-bolder">R$ ${product.price}</span>
                             </div>
