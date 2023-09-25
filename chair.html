@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IdealChair</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
     <!-- JavaScript -->
-    <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="/js/script.js" defer></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js" defer></script>
 </head>
 
 <body class="min-vh-100 d-flex flex-column">
@@ -22,7 +22,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarToggler">
                     <a class="navbar-brand" href="/">
-                        <img style="width:160px" src="/assets/images/illustrations/logo.svg" alt="IdealChair">
+                        <img style="width:160px" src="./assets/images/illustrations/logo.svg" alt="IdealChair">
                     </a>
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
@@ -77,15 +77,15 @@
     </main>
 
     <footer class="w-100 position-relative px-4 m-0 gradient-custom d-flex flex-column justify-content-center align-items-center">
-        <img class="position-absolute bottom-100 start-0 end-0 m-0 p-0" src="/assets/images/illustrations/separator-footer.png">
+        <img class="position-absolute bottom-100 start-0 end-0 m-0 p-0" src="./assets/images/illustrations/separator-footer.png">
         <a href="/">
-            <img class="mb-2" src="/assets/images/illustrations/logo.svg" alt="IdealChair">
+            <img class="mb-2" src="./assets/images/illustrations/logo.svg" alt="IdealChair">
         </a>
         <p class="text-black opacity-50 text-center">&copy; <strong>IdealChair.</strong> Alguns direitos reservados.</p>
     </footer>
 
     <script type="module">
-        import { products } from "/js/products.js";
+        import { products } from "./js/products.js";
         const url = new URL(window.location.href);
         const id = url.searchParams.get('id');
         const elem = document.querySelector('#chair');

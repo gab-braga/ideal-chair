@@ -4,7 +4,7 @@ export const products = [
         name: "Cadeira de Jantar Estofada",
         price: 580.0,
         sales: 230,
-        image: "/assets/images/products/chair-01.jpg",
+        image: "./assets/images/products/chair-01.jpg",
         description:
             "A Cadeira de Jantar Estofada é a escolha perfeita para quem busca conforto e elegância na hora das refeições. Seu design atemporal se adapta a qualquer ambiente, enquanto o estofamento macio proporciona uma experiência de jantar excepcionalmente confortável.",
         details: [
@@ -19,7 +19,7 @@ export const products = [
         name: "Cadeira de Escritório Ergonômica",
         price: 480.0,
         sales: 120,
-        image: "/assets/images/products/chair-02.jpg",
+        image: "./assets/images/products/chair-02.jpg",
         description:
             "A Cadeira de Escritório Ergonômica foi projetada para proporcionar o máximo de conforto durante longas horas de trabalho. Seu design ergonômico e materiais de alta qualidade garantem o suporte necessário para aumentar a produtividade no escritório.",
         details: [
@@ -34,7 +34,7 @@ export const products = [
         name: "Cadeira de Leitura Acolhedora",
         price: 380.0,
         sales: 320,
-        image: "/assets/images/products/chair-03.jpg",
+        image: "./assets/images/products/chair-03.jpg",
         description:
             "A Cadeira de Leitura Acolhedora é o lugar perfeito para relaxar com seu livro favorito. Seu design acolhedor e estofamento macio criam uma atmosfera aconchegante para momentos de leitura inesquecíveis.",
         details: [
@@ -49,7 +49,7 @@ export const products = [
         name: "Cadeira de Varanda Moderna",
         price: 280.0,
         sales: 420,
-        image: "/assets/images/products/chair-04.jpg",
+        image: "./assets/images/products/chair-04.jpg",
         description:
             "A Cadeira de Varanda Moderna é ideal para relaxar ao ar livre com estilo. Seu design contemporâneo e materiais resistentes a condições climáticas tornam-na perfeita para varandas e áreas externas.",
         details: [
@@ -64,7 +64,7 @@ export const products = [
         name: "Cadeira de Jantar Estofada",
         price: 580.0,
         sales: 230,
-        image: "/assets/images/products/chair-05.jpg",
+        image: "./assets/images/products/chair-05.jpg",
         description:
             "A Cadeira de Jantar Estofada é a escolha perfeita para quem busca conforto e elegância na hora das refeições. Seu design atemporal se adapta a qualquer ambiente, enquanto o estofamento macio proporciona uma experiência de jantar excepcionalmente confortável.",
         details: [
@@ -79,7 +79,7 @@ export const products = [
         name: "Cadeira de Escritório Ergonômica",
         price: 480.0,
         sales: 120,
-        image: "/assets/images/products/chair-06.jpg",
+        image: "./assets/images/products/chair-06.jpg",
         description:
             "A Cadeira de Escritório Ergonômica foi projetada para proporcionar o máximo de conforto durante longas horas de trabalho. Seu design ergonômico e materiais de alta qualidade garantem o suporte necessário para aumentar a produtividade no escritório.",
         details: [
@@ -94,7 +94,7 @@ export const products = [
         name: "Cadeira de Leitura Acolhedora",
         price: 380.0,
         sales: 320,
-        image: "/assets/images/products/chair-07.jpg",
+        image: "./assets/images/products/chair-07.jpg",
         description:
             "A Cadeira de Leitura Acolhedora é o lugar perfeito para relaxar com seu livro favorito. Seu design acolhedor e estofamento macio criam uma atmosfera aconchegante para momentos de leitura inesquecíveis.",
         details: [
@@ -109,7 +109,7 @@ export const products = [
         name: "Cadeira de Varanda Moderna",
         price: 280.0,
         sales: 420,
-        image: "/assets/images/products/chair-08.jpg",
+        image: "./assets/images/products/chair-08.jpg",
         description:
             "A Cadeira de Varanda Moderna é ideal para relaxar ao ar livre com estilo. Seu design contemporâneo e materiais resistentes a condições climáticas tornam-na perfeita para varandas e áreas externas.",
         details: [
@@ -124,7 +124,7 @@ export const products = [
         name: "Cadeira de Jantar Estofada",
         price: 580.0,
         sales: 230,
-        image: "/assets/images/products/chair-09.jpg",
+        image: "./assets/images/products/chair-09.jpg",
         description:
             "A Cadeira de Jantar Estofada é a escolha perfeita para quem busca conforto e elegância na hora das refeições. Seu design atemporal se adapta a qualquer ambiente, enquanto o estofamento macio proporciona uma experiência de jantar excepcionalmente confortável.",
         details: [
@@ -139,7 +139,7 @@ export const products = [
         name: "Cadeira de Escritório Ergonômica",
         price: 480.0,
         sales: 120,
-        image: "/assets/images/products/chair-10.jpg",
+        image: "./assets/images/products/chair-10.jpg",
         description:
             "A Cadeira de Escritório Ergonômica foi projetada para proporcionar o máximo de conforto durante longas horas de trabalho. Seu design ergonômico e materiais de alta qualidade garantem o suporte necessário para aumentar a produtividade no escritório.",
         details: [
@@ -154,7 +154,7 @@ export const products = [
         name: "Cadeira de Leitura Acolhedora",
         price: 380.0,
         sales: 320,
-        image: "/assets/images/products/chair-11.jpg",
+        image: "./assets/images/products/chair-11.jpg",
         description:
             "A Cadeira de Leitura Acolhedora é o lugar perfeito para relaxar com seu livro favorito. Seu design acolhedor e estofamento macio criam uma atmosfera aconchegante para momentos de leitura inesquecíveis.",
         details: [
@@ -169,7 +169,7 @@ export const products = [
         name: "Cadeira de Varanda Moderna",
         price: 280.0,
         sales: 420,
-        image: "/assets/images/products/chair-12.jpg",
+        image: "./assets/images/products/chair-12.jpg",
         description:
             "A Cadeira de Varanda Moderna é ideal para relaxar ao ar livre com estilo. Seu design contemporâneo e materiais resistentes a condições climáticas tornam-na perfeita para varandas e áreas externas.",
         details: [
@@ -184,7 +184,7 @@ export const products = [
         name: "Cadeira de Jantar Estofada",
         price: 580.0,
         sales: 230,
-        image: "/assets/images/products/chair-13.jpg",
+        image: "./assets/images/products/chair-13.jpg",
         description:
             "A Cadeira de Jantar Estofada é a escolha perfeita para quem busca conforto e elegância na hora das refeições. Seu design atemporal se adapta a qualquer ambiente, enquanto o estofamento macio proporciona uma experiência de jantar excepcionalmente confortável.",
         details: [
@@ -199,7 +199,7 @@ export const products = [
         name: "Cadeira de Escritório Ergonômica",
         price: 480.0,
         sales: 120,
-        image: "/assets/images/products/chair-14.jpg",
+        image: "./assets/images/products/chair-14.jpg",
         description:
             "A Cadeira de Escritório Ergonômica foi projetada para proporcionar o máximo de conforto durante longas horas de trabalho. Seu design ergonômico e materiais de alta qualidade garantem o suporte necessário para aumentar a produtividade no escritório.",
         details: [
@@ -214,7 +214,7 @@ export const products = [
         name: "Cadeira de Leitura Acolhedora",
         price: 380.0,
         sales: 320,
-        image: "/assets/images/products/chair-15.jpg",
+        image: "./assets/images/products/chair-15.jpg",
         description:
             "A Cadeira de Leitura Acolhedora é o lugar perfeito para relaxar com seu livro favorito. Seu design acolhedor e estofamento macio criam uma atmosfera aconchegante para momentos de leitura inesquecíveis.",
         details: [
@@ -229,7 +229,7 @@ export const products = [
         name: "Cadeira de Varanda Moderna",
         price: 280.0,
         sales: 420,
-        image: "/assets/images/products/chair-16.jpg",
+        image: "./assets/images/products/chair-16.jpg",
         description:
             "A Cadeira de Varanda Moderna é ideal para relaxar ao ar livre com estilo. Seu design contemporâneo e materiais resistentes a condições climáticas tornam-na perfeita para varandas e áreas externas.",
         details: [
@@ -244,7 +244,7 @@ export const products = [
         name: "Cadeira de Jantar Estofada",
         price: 580.0,
         sales: 230,
-        image: "/assets/images/products/chair-17.jpg",
+        image: "./assets/images/products/chair-17.jpg",
         description:
             "A Cadeira de Jantar Estofada é a escolha perfeita para quem busca conforto e elegância na hora das refeições. Seu design atemporal se adapta a qualquer ambiente, enquanto o estofamento macio proporciona uma experiência de jantar excepcionalmente confortável.",
         details: [
@@ -259,7 +259,7 @@ export const products = [
         name: "Cadeira de Escritório Ergonômica",
         price: 480.0,
         sales: 120,
-        image: "/assets/images/products/chair-18.jpg",
+        image: "./assets/images/products/chair-18.jpg",
         description:
             "A Cadeira de Escritório Ergonômica foi projetada para proporcionar o máximo de conforto durante longas horas de trabalho. Seu design ergonômico e materiais de alta qualidade garantem o suporte necessário para aumentar a produtividade no escritório.",
         details: [
@@ -274,7 +274,7 @@ export const products = [
         name: "Cadeira de Leitura Acolhedora",
         price: 380.0,
         sales: 320,
-        image: "/assets/images/products/chair-19.jpg",
+        image: "./assets/images/products/chair-19.jpg",
         description:
             "A Cadeira de Leitura Acolhedora é o lugar perfeito para relaxar com seu livro favorito. Seu design acolhedor e estofamento macio criam uma atmosfera aconchegante para momentos de leitura inesquecíveis.",
         details: [
@@ -289,7 +289,7 @@ export const products = [
         name: "Cadeira de Varanda Moderna",
         price: 280.0,
         sales: 420,
-        image: "/assets/images/products/chair-20.jpg",
+        image: "./assets/images/products/chair-20.jpg",
         description:
             "A Cadeira de Varanda Moderna é ideal para relaxar ao ar livre com estilo. Seu design contemporâneo e materiais resistentes a condições climáticas tornam-na perfeita para varandas e áreas externas.",
         details: [
@@ -304,7 +304,7 @@ export const products = [
         name: "Cadeira de Jantar Estofada",
         price: 580.0,
         sales: 230,
-        image: "/assets/images/products/chair-21.jpg",
+        image: "./assets/images/products/chair-21.jpg",
         description:
             "A Cadeira de Jantar Estofada é a escolha perfeita para quem busca conforto e elegância na hora das refeições. Seu design atemporal se adapta a qualquer ambiente, enquanto o estofamento macio proporciona uma experiência de jantar excepcionalmente confortável.",
         details: [
@@ -319,7 +319,7 @@ export const products = [
         name: "Cadeira de Escritório Ergonômica",
         price: 480.0,
         sales: 120,
-        image: "/assets/images/products/chair-22.jpg",
+        image: "./assets/images/products/chair-22.jpg",
         description:
             "A Cadeira de Escritório Ergonômica foi projetada para proporcionar o máximo de conforto durante longas horas de trabalho. Seu design ergonômico e materiais de alta qualidade garantem o suporte necessário para aumentar a produtividade no escritório.",
         details: [
@@ -334,7 +334,7 @@ export const products = [
         name: "Cadeira de Leitura Acolhedora",
         price: 380.0,
         sales: 320,
-        image: "/assets/images/products/chair-23.jpg",
+        image: "./assets/images/products/chair-23.jpg",
         description:
             "A Cadeira de Leitura Acolhedora é o lugar perfeito para relaxar com seu livro favorito. Seu design acolhedor e estofamento macio criam uma atmosfera aconchegante para momentos de leitura inesquecíveis.",
         details: [
@@ -349,7 +349,7 @@ export const products = [
         name: "Cadeira de Varanda Moderna",
         price: 280.0,
         sales: 420,
-        image: "/assets/images/products/chair-24.jpg",
+        image: "./assets/images/products/chair-24.jpg",
         description:
             "A Cadeira de Varanda Moderna é ideal para relaxar ao ar livre com estilo. Seu design contemporâneo e materiais resistentes a condições climáticas tornam-na perfeita para varandas e áreas externas.",
         details: [
