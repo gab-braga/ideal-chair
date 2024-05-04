@@ -2,13 +2,13 @@
 
 ## Descrição
 IdealChair é um site projetado para promover e vender cadeiras de design moderno. Ela é construída com
-o uso do framework Bootstrap, o que torna o desenvolvimento e a manutenção mais eficientes, e proporciona
+o uso da biblioteca de estilo Bootstrap, o que torna o desenvolvimento e a manutenção mais eficientes, e proporciona
 uma experiência atraente para os visitantes.
 
 ## Como Usar
  1. Clone o repositório: `git clone https://github.com/F-Gabriel-Braga/ideal-chair`
- 2. Acesse o diretório do projeto
- 3. Acesse o arquivo `index.html` no seu navegador
+ 2. Acesse o diretório do projeto: `cd ideal-chair`
+ 3. Abra o arquivo `index.html` no seu navegador
 
 ## Tecnologias Utilizadas
 * Bootstrap
